@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171716">
+  <meta name="description" content="조류형과 멧돼지형 크리처의 3D 렌더, 클레이 모델과 와이어프레임 포트폴리오.">
+  <title>3D 크리처 모델링 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top">CREATURE<span> / </span>3D</a>
+      <nav aria-label="작품 바로가기">
+        <a href="#avian">조류형</a>
+        <a href="#boar-a">멧돼지형 A</a>
+        <a href="#boar-b">멧돼지형 B</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <h1 id="hero-title"><span>3D CREATURE</span><span>PORTFOLIO</span></h1>
+        <p>3D 크리처 모델링 포트폴리오</p>
+        <a class="hero-link" href="#avian">작품 보기</a>
+      </div>
+      <figure class="hero-art">
+        <img src="creature-cover.png" width="405" height="720" alt="긴 부리와 발굽을 가진 조류형 크리처의 사선 전신 렌더" fetchpriority="high">
+      </figure>
+    </section>
+
+    <div class="work" aria-label="크리처 모델링 작품">
+      
+      <section id="avian" class="project " aria-labelledby="avian-title">
+        <header class="project-header">
+          <div>
+            <h2 id="avian-title">조류형 크리처</h2>
+            <p>앞으로 굽은 자세와 긴 부리, 거친 피부가 특징인 크리처입니다.</p>
+          </div>
+          <div class="modes" role="group" aria-label="조류형 크리처 보기 방식">
+            <button type="button" data-mode="render" aria-pressed="true" aria-controls="avian-gallery">완성 렌더</button>
+            <button type="button" data-mode="clay" aria-pressed="false" aria-controls="avian-gallery">클레이 모델</button>
+            <button type="button" data-mode="wire" aria-pressed="false" aria-controls="avian-gallery">와이어프레임</button>
+          </div>
+        </header>
+        <div class="gallery" id="avian-gallery">
+          <figure data-view="정면">
+            <button class="image-button" type="button" aria-label="조류형 크리처 정면 이미지 확대">
+              <img src="creature-4-0.png" width="403" height="510" alt="조류형 크리처 완성 렌더 정면" loading="lazy" decoding="async">
+            </button>
+            <figcaption><span lang="en">FRONT</span></figcaption>
+          </figure>
+          <figure data-view="측면">
+            <button class="image-button" type="button" aria-label="조류형 크리처 측면 이미지 확대">
+              <img src="creature-4-1.png" width="403" height="510" alt="조류형 크리처 완성 렌더 측면" loading="lazy" decoding="async">
+            </button>
+            <figcaption><span lang="en">SIDE</span></figcaption>
+          </figure>
+          <figure data-view="후면">
+            <button class="image-button" type="button" aria-label="조류형 크리처 후면 이미지 확대">
+              <img src="creature-4-2.png" width="403" height="510" alt="조류형 크리처 완성 렌더 후면" loading="lazy" decoding="async">
+            </button>
+            <figcaption><span lang="en">BACK</span></figcaption>
+          </figure>
+        </div>
+        <p class="sr-only gallery-status" role="status"></p>
+      </section>
+
+      <section id="boar-a" class="project project-pair" aria-labelledby="boar-a-title">
+        <header class="project-header">
+          <div>
+            <h2 id="boar-a-title">멧돼지형 크리처 A</h2>
+            <p>곧게 선 체형에 뾰족한 귀와 붉은 눈이 돋보입니다.</p>
+          </div>
+          <div class="modes" role="group" aria-label="멧돼지형 크리처 A 보기 방식">
+            <button type="button" data-mode="render" aria-pressed="true" aria-controls="boar-a-gallery">텍스처</button>
+            <button type="button" data-mode="wire" aria-pressed="false" aria-controls="boar-a-gallery">와이어프레임</button>
+          </div>
+        </header>
+        <div class="gallery" id="boar-a-gallery">
+          <figure data-view="정면">
+            <button class="image-button" type="button" aria-label="멧돼지형 크리처 A 정면 이미지 확대">
+              <img src="creature-1-2.png" width="550" height="458" alt="멧돼지형 크리처 A 텍스처 정면" loading="lazy" decoding="async">
+            </button>
+            <figcaption><span lang="en">FRONT</span></figcaption>
+          </figure>
+          <figure data-view="후면">
+            <button class="image-button" type="button" aria-label="멧돼지형 크리처 A 후면 이미지 확대">
+              <img src="creature-1-3.png" width="550" height="458" alt="멧돼지형 크리처 A 텍스처 후면" loading="lazy" decoding="async">
+            </button>
+            <figcaption><span lang="en">BACK</span></figcaption>
+          </figure>
+        </div>
+        <p class="sr-only gallery-status" role="status"></p>
+      </section>
+
+      <section id="boar-b" class="project project-pair" aria-labelledby="boar-b-title">
+        <header class="project-header">
+          <div>
+            <h2 id="boar-b-title">멧돼지형 크리처 B</h2>
+            <p>넓은 어깨와 앞으로 굽은 상체, 길게 휘어진 엄니가 특징입니다.</p>
+          </div>
+          <div class="modes" role="group" aria-label="멧돼지형 크리처 B 보기 방식">
+            <button type="button" data-mode="render" aria-pressed="true" aria-controls="boar-b-gallery">텍스처</button>
+            <button type="button" data-mode="wire" aria-pressed="false" aria-controls="boar-b-gallery">와이어프레임</button>
+          </div>
+        </header>
+        <div class="gallery" id="boar-b-gallery">
+          <figure data-view="정면">
+            <button class="image-button" type="button" aria-label="멧돼지형 크리처 B 정면 이미지 확대">
+              <img src="creature-2-2.png" width="558" height="305" alt="멧돼지형 크리처 B 텍스처 정면" loading="lazy" decoding="async">
+            </button>
+            <figcaption><span lang="en">FRONT</span></figcaption>
+          </figure>
+          <figure data-view="후면">
+            <button class="image-button" type="button" aria-label="멧돼지형 크리처 B 후면 이미지 확대">
+              <img src="creature-2-3.png" width="558" height="305" alt="멧돼지형 크리처 B 텍스처 후면" loading="lazy" decoding="async">
+            </button>
+            <figcaption><span lang="en">BACK</span></figcaption>
+          </figure>
+        </div>
+        <p class="sr-only gallery-status" role="status"></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <span>3D 크리처 모델링 포트폴리오</span>
+      <a href="#top">맨 위로</a>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" aria-labelledby="preview-title">
+    <div class="lightbox-inner">
+      <header>
+        <h2 id="preview-title"></h2>
+        <form method="dialog"><button type="submit" autofocus>닫기 <span aria-hidden="true">×</span></button></form>
+      </header>
+      <img alt="">
+    </div>
+  </dialog>
+</body>
+</html>
